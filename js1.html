@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>First JS Document</title>
+        <style>
+            h1 {
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font: size 24px;
+                color:blue;
+            }
+            body {
+                background-color: aliceblue;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1 id="test1" style="text-align:center"> Full Stack Trainig</h1>
+        <button id="test2" style="width:90px;height:30px;" onclick="click1()">Click Me</button>
+        <p> <pre style="text-align:center; font-size:24px;"  onmouseover="divv()">
+            Welcome to full stack training,
+
+            This is the second sesison, we start taking java script basics with rony rizk. 
+            Our first session was HTML and CSS. 
+
+        </pre></p>
+
+        <ul type="square" style ="font-size:30px;">
+            <li id="li1">Rony rizik</li>
+            <li id="li2">Marcel Samrout</li>
+            <li id="li3">Salim Sarraf</li>
+
+
+        </ul>
+
+        <script src="scr.js"> </script>
+
+
+        <img id="lamp1" src="" alt="error opening the image" style="width:300px;height:500px;" />
+
+        <br>
+        <br>
+            <pre>        
+        
+              <button id="b1" style="width:100px;height:50px;" onclick="toggle()"> Turn On </button>
+            </pre>   
+            <pre>        
+              <button id="b2" style="width:100px;height:50px;" onclick="brake()"> Brake </button>
+              </pre>   
+
+              <script>
+                document.getElementById('lamp1').src= 'off.png';
+                var lamp = document.getElementById('lamp1'); 
+    var button = document.getElementById('b1');
+    var state = false; 
+    var isbroke = false;
+    
+            </script>
+              
+
+    </body>
+</html>
